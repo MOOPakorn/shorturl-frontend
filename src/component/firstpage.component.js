@@ -16,7 +16,7 @@ function Firstpage() {
             full: url,
             short: shortid.generate()
         }
-        axios.post("http://localhost:4000/add-url", urlObject)
+        axios.post("https://my-short-url-api.onrender.com/add-url", urlObject)
             .then(res => navigate(`/shortened/${res.data.id}`));
     }
     return (

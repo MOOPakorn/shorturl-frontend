@@ -6,7 +6,7 @@ function RediracttoUrl() {
     const { id } = useParams();
 
     const RedirecttoUrl = (id) => {
-        axios.get(`http://localhost:4000/${id}`)
+        axios.get(`https://my-short-url-api.onrender.com/${id}`)
             .then(res => {
                 window.location.replace(res.data.full);
             })

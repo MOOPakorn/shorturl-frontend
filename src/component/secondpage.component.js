@@ -10,7 +10,7 @@ function Secondpage() {
     const newURL = window.location.protocol + "//" + window.location.host + window.location.search;
 
     const getUrlByID = (id) => {
-        axios.get(`http://localhost:4000/shortened/${id}`)
+        axios.get(`https://my-short-url-api.onrender.com/shortened/${id}`)
             .then(res => {
                 setFull(res.data.full)
                 setShort(newURL + "/" + res.data.short)

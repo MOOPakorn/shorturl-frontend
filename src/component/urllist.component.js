@@ -11,7 +11,7 @@ function UrlList() {
     });
 
     const Getdata = () => {
-        axios.get('http://localhost:4000/url-list')
+        axios.get('https://my-short-url-api.onrender.com/url-list')
             .then(res => {
                 setUrllist(res.data)
             })
