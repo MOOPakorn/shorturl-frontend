@@ -33,7 +33,7 @@ function Firstpage() {
                                     <button className="btn btn-primary" type="submit">Shorten URL</button>
                                 </div>
                             </form>
-                            <p>Hi!! this is my Short URL EIEI<br />For create a shortened link making it easy to remember</p>
+                            <p>Hi!! this is my Short URL<br />For create a shortened link making it easy to remember</p>
                             <Link to='/url-list'>Click here to see URL list</Link>
                         </div>
                     </div>
